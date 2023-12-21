@@ -1,0 +1,150 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body1-board {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCDD6;
+}
+
+.main-body1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.main-body2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-body3 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-body4 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-body-title {
+    margin-left: 0.6rem;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 3.2rem;
+}
+
+.main-body-contents {
+    margin-left: 0.6rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: #8e8e8e;
+}
+
+.main-down-button {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 14rem;
+    height: auto;
+}
+
+.main-down-button:hover {
+    cursor: pointer;
+}
+
+.main-body1-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.main-body1-img {
+    width: 20rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.main-body1-img2 {
+    width: 12rem;
+}
+
+.main-body3-board {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+
+.main-body4-board {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body2-board {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.main-body2-left-line {
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    margin-bottom: 0.39rem;
+    background-color:#FF6A87;
+}
+
+.main-body2-right-line {
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    margin-bottom: 0.39rem;
+    background-color: #FF6A87;
+}
+
+.main-body4-board {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.main-body4-left {
+    flex-grow: 1;
+    background-color: #FF6A87;
+}
+
+.main-body4-right {
+    flex-grow: 1;
+    background-color: #F7F7F7;
+}
