@@ -43,4 +43,4 @@ jobs:
 
           # Pull and run the application container
           docker pull ${{ secrets.DOCKER_USERNAME }}/mohaeng-web
-          docker run -d --name mohaeng-web
+          docker run -d --name mohaeng-web ${{ secrets.DOCKER_USERNAME }}/mohaeng-web
