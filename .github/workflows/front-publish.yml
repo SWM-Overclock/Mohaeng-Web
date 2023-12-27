@@ -43,4 +43,4 @@ jobs:
 
           # Pull and run the application container
           docker pull ${{ secrets.DOCKER_USERNAME }}/mohaeng-web
-          docker run -d --name mohaeng-web --network nginx-fe -v /home/ubuntu/fe_container/default.conf:/etc/nginx/conf.d/default.conf ${{ secrets.DOCKER_USERNAME }}/mohaeng-web
+          docker run -d --name mohaeng-web
